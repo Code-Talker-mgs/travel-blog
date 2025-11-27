@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Blog</title>
+    <meta name="description" content="世界各地を旅したブログ" />
+
+    <!-- 検索避けメタタグ -->
+    <meta name="robots" content="noindex" />
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <!-- ファビコン -->
+    <link rel="icon" href="img/favicon.ico" />
+
+    <!-- スタイルCSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- スクリプトJS -->
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title wrapper"><a href="#">Travel Blog</a></h1>
+      <nav class="nav-item" aria-label="メインナビゲーション">
+        <button
+          id="hamburger-btn"
+          class="hamburger"
+          type="button"
+          aria-expanded="false"
+          aria-controls="list-items"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul id="list-items" class="list-item wrapper">
+          <li><a href="#">NEW</a></li>
+          <li><a href="#">COLUMN</a></li>
+          <li><a href="#">SERIES</a></li>
+          <li><a href="#">Q&A</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container wrapper">
+      <article class="article">
+        <img src="img/pickup1.jpg" alt="海の上のコテージ" />
+        <h2>
+          タイトルテキストテキストテキストテキストテキストテキストテキスト
+        </h2>
+        <div class="under-line"><a href="#">READ MORE</a></div>
+      </article>
+      <article class="article">
+        <img src="img/pickup2.jpg" alt="鳳凰古城の夜景" />
+        <h2>
+          タイトルテキストテキストテキストテキストテキストテキストテキスト
+        </h2>
+        <div class="under-line"><a href="#">READ MORE</a></div>
+      </article>
+      <article class="article">
+        <img src="img/pickup3.jpg" alt="ブルーアワーの邸宅" />
+        <h2>
+          タイトルテキストテキストテキストテキストテキストテキストテキスト
+        </h2>
+        <div class="under-line"><a href="#">READ MORE</a></div>
+      </article>
+    </div>
+
+    <div class="container wrapper">
+      <main class="main-content">
+        <article class="main-article">
+          <h2>タイトルテキストテキストテキストテキストテキスト</h2>
+          <ul>
+            <li>2020/01/01</li>
+            <li>カテゴリ1</li>
+          </ul>
+          <img src="img/main1.jpg" alt="南国のリゾート" />
+          <p>
+            本文テキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+          <div class="under-line"><a href="#">READ MORE</a></div>
+        </article>
+        <article class="main-article">
+          <h2>タイトルテキストテキストテキストテキストテキスト</h2>
+          <ul>
+            <li>2021/01/01</li>
+            <li>カテゴリ2</li>
+          </ul>
+          <img
+            src="img/main2.jpg"
+            alt="緑に囲われたプライベートヴィラでくつろぐ女性"
+          />
+          <p>
+            本文テキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+          <div class="under-line"><a href="#">READ MORE</a></div>
+        </article>
+        <article class="main-article">
+          <h2>タイトルテキストテキストテキストテキストテキスト</h2>
+          <ul>
+            <li>2022/01/01</li>
+            <li>カテゴリ3</li>
+          </ul>
+          <img src="img/main3.jpg" alt="海を望むウッドデッキ" />
+          <p>
+            本文テキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+          <div class="under-line"><a href="#">READ MORE</a></div>
+        </article>
+      </main>
+
+      <aside class="side-bar">
+        <section class="author">
+          <img src="img/author.jpg" alt="カメラで撮影している人" />
+          <h3>Name Name</h3>
+          <p>
+            プロフィールテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+        </section>
+        <section class="ranking">
+          <h3>Ranking</h3>
+          <img src="img/ranking1.jpg" alt="喫茶店でコーヒーを淹れている人" />
+          <p>タイトルテキストテキストテキストテキストテキスト</p>
+        </section>
+        <section class="ranking">
+          <img
+            src="img/ranking2.jpg"
+            alt="ホテルとレストランを案内している看板"
+          />
+          <p>タイトルテキストテキストテキストテキストテキスト</p>
+        </section>
+        <section class="ranking">
+          <img src="img/ranking3.jpg" alt="崖上のリゾートタウン" />
+          <p>タイトルテキストテキストテキストテキストテキスト</p>
+        </section>
+        <section class="archive">
+          <h3>Archive</h3>
+          <ul>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+            <li>XXXX年XX月(XX)</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content wrapper">
+        <section class="about">
+          <h3>About</h3>
+          <p>
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          </p>
+          <ul>
+            <li><a href="#">プロフィール詳細</a></li>
+            <li><a href="#">お仕事の依頼</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+        </section>
+        <section class="menu">
+          <h3>Menu</h3>
+          <ul>
+            <li><a href="#">NEW</a></li>
+            <li><a href="#">CATEGORY</a></li>
+            <li><a href="#">COLUMN</a></li>
+            <li><a href="#">SERIES</a></li>
+            <li><a href="#">Q&A</a></li>
+          </ul>
+        </section>
+        <section class="sns">
+          <h3>Twitter</h3>
+          <a href="https://x.com/?lang=ja">Tweets by X</a>
+        </section>
+      </div>
+      <p class="copyright">&copy; Travel & Blog 2020</p>
+    </footer>
+  </body>
+</html>
